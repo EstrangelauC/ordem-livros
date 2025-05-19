@@ -23,7 +23,7 @@ border border-zinc-800 p-5 rounded-md gap-10 w-72">
         <MenuItem texto="Inicio" href="/">
             <IconHome size={20} />
         </MenuItem>
-        <MenuItem texto="Personagem" href="/">
+        <MenuItem texto="Personagem" href="/personagens">
             <IconFriends size={20} />
         </MenuItem>
         <MenuItem texto="Autores" href="/autores">
