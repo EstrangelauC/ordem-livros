@@ -8,6 +8,7 @@ const series = [
           "A série de livros Harry Potter, escrita por J.K. Rowling, acompanha a jornada de um jovem bruxo e seus amigos na Escola de Magia e Bruxaria de Hogwarts. Uma saga marcada por amizade, coragem e batalhas épicas entre o bem e o mal.",
         autor: autores[0],
         ano: 1997,
+        criadoEm: "2025-05-18T16:45:00Z", 
         imagem: "https://i.pathehome.com/collection/global/phc-o0dvqhi5iz/713294-wizardingworld_bc_fr.png",
         livros: [
           {
@@ -93,6 +94,7 @@ const series = [
         "A épica série escrita por J.R.R. Tolkien acompanha a jornada pela Terra Média na luta contra o mal que ameaça o mundo. Com elfos, anões, hobbits e homens, a saga é uma das obras mais influentes da literatura fantástica.",
       autor: autores[1],
       ano: 1937,
+      criadoEm: "2025-05-18T16:45:00Z",
       imagem: "https://i.ebayimg.com/images/g/NokAAOSwHLtjK7U3/s-l1600.jpg",
       livros: [
         {
@@ -141,6 +143,7 @@ const series = [
         "Escrita por George R. R. Martin, esta série de fantasia épica mergulha num mundo brutal e político, onde famílias nobres disputam o Trono de Ferro enquanto antigas ameaças emergem do norte. Com personagens complexos e reviravoltas inesperadas, tornou-se um fenómeno literário e televisivo.",
       autor: autores[2],
       ano: 1996,
+      criadoEm: "2025-05-18T16:45:00Z",
       imagem: "https://m.media-amazon.com/images/I/81C0TRpD-hL._AC_UF1000,1000_QL80_.jpg",
       livros: [
         {
