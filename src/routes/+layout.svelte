@@ -4,6 +4,10 @@
 	let { children } = $props();
 </script>
 
-<Pagina>
-	{@render children()}
-</Pagina>
+<div class="flex min-h-screen">
+    <div class="flex-1">
+        <Pagina>
+            {@render children()}
+        </Pagina>
+    </div>
+</div>

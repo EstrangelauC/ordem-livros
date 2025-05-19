@@ -13,6 +13,6 @@
 }
 
 .botao.vermelho {
-    @apply bg-red-500 text-white;
-    @apply hover:bg-red-600;
-  }
+  @apply bg-red-500 text-white;
+  @apply hover:bg-red-600;
+}

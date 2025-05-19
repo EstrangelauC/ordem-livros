@@ -14,7 +14,7 @@
         <p class="text-lg text-zinc-400 text-justify">{serie.descricao}</p>
 
         <h2>Lista de Livros</h2>
-        <div class="grid grid-cols-3 gap-5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
             {#each serie.livros as livro}
                 <ItemLivro {livro} />
             {/each}

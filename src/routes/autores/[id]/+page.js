@@ -1,13 +1,13 @@
 import { error } from '@sveltejs/kit';
 import autores from '../../../constants/autores.js';
 
-export function load(dados) {
-    const autorId = dados.params.id;
+export function load({ params }) {
+    const autorId = params.id;
+    const autor = autores.find(a => a.id === autorId);
 
-    for (let autor of autores) {
-        if (autor.id == autorId) {
-            return { autor };
-        }
+    if (autor) {
+        return { autor };
     }
-    error(404, "Autor não encontrado");
+
+    throw error(404, "Autor não encontrado");
 }
